@@ -1,6 +1,6 @@
 package hello.mn.ioc;
 
-import hello.mn.ioc.figure.Snack;
+import hello.mn.ioc.snack.Snack;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;

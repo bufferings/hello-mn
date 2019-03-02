@@ -1,4 +1,4 @@
-package hello.mn.ioc.figure;
+package hello.mn.ioc.snack;
 
 public interface Snack {
   String name();

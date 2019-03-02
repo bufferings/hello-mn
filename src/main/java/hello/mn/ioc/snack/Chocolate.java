@@ -1,4 +1,4 @@
-package hello.mn.ioc.figure;
+package hello.mn.ioc.snack;
 
 import javax.inject.Singleton;
 
