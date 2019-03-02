@@ -1,4 +1,4 @@
-package hello.mn.iac.type;
+package hello.mn.iac.engine;
 
 public interface Engine {
 
