@@ -1,10 +1,10 @@
-package hello.mn.iac.engine;
+package hello.mn.ioc.engine;
 
 import javax.inject.Singleton;
 
 @Singleton
-public class V6Engine implements Engine {
-  int cylinders = 6;
+public class V8Engine implements Engine {
+  int cylinders = 8;
 
   @Override
   public int getCylinders() {
@@ -13,6 +13,6 @@ public class V6Engine implements Engine {
 
   @Override
   public String start() {
-    return "Starting V6";
+    return "Starting V8";
   }
 }

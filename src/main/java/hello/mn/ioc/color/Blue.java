@@ -1,4 +1,4 @@
-package hello.mn.iac.color;
+package hello.mn.ioc.color;
 
 import javax.inject.Singleton;
 

@@ -1,7 +1,7 @@
-package hello.mn.iac;
+package hello.mn.ioc;
 
-import hello.mn.iac.color.ColorPicker;
-import hello.mn.iac.engine.Engine;
+import hello.mn.ioc.color.ColorPicker;
+import hello.mn.ioc.engine.Engine;
 import io.micronaut.context.ApplicationContext;
 import io.micronaut.context.BeanContext;
 import io.micronaut.http.MediaType;

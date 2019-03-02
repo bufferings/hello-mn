@@ -1,9 +1,9 @@
-package hello.mn.iac;
+package hello.mn.ioc;
 
-import hello.mn.iac.engine.Engine;
-import hello.mn.iac.engine.annotation.V6;
-import hello.mn.iac.engine.annotation.V8;
-import hello.mn.iac.engine.annotation.V8Engine;
+import hello.mn.ioc.engine.Engine;
+import hello.mn.ioc.engine.annotation.V6;
+import hello.mn.ioc.engine.annotation.V8;
+import hello.mn.ioc.engine.annotation.V8Engine;
 import io.micronaut.http.MediaType;
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;
