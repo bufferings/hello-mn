@@ -1,4 +1,3 @@
-FROM openjdk:8u171-alpine3.7
-RUN apk --no-cache add curl
-COPY build/libs/*-all.jar hello-mn.jar
-CMD java ${JAVA_OPTS} -jar hello-mn.jar
+FROM openjdk:11.0.2-jre-stretch
+COPY build/libs/*-all.jar hello-world.jar
+CMD java ${JAVA_OPTS} -jar hello-world.jar
