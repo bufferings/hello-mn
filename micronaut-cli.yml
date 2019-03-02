@@ -1,0 +1,5 @@
+profile: service
+defaultPackage: hello.mn
+---
+testFramework: spock
+sourceLanguage: java
